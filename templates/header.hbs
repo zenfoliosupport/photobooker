@@ -1,0 +1,25 @@
+<a class="skip-navigation" tabindex="1" href="#main-content">{{t 'skip_navigation' }}</a>
+
+<header class="header">
+  <div class="logo">
+    {{#link 'help_center'}}
+      <img src="{{settings.logo}}" alt="{{t 'home_page' name=help_center.name}}" />
+      {{#if settings.show_brand_name}}
+        <span aria-hidden="true">{{help_center.name}}</span>
+      {{/if}}
+    {{/link}}
+  </div>
+
+  <div class="nav-wrapper-desktop">
+    <a href="https://www.photobooker.com/">Home</a>
+    <a href="https://status.zenfolio.com">Status</a>
+    <a href="https://www.photobooker.com/dashboard">Account</a>
+  </div>
+
+  <div class="nav-wrapper-mobile">
+       <a href="https://www.photobooker.com/">Home</a>
+    <a href="https://status.zenfolio.com">Status</a>
+    <a href="https://www.photobooker.com/dashboard">Account</a>
+  </div>
+
+</header>
